@@ -1,0 +1,3 @@
+'atom-text-editor':
+    'ctrl-shift-f': 'atom-beautify:beautify-editor'
+    'alt+f7': 'project-find:show'

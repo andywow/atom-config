@@ -1,0 +1,44 @@
+"*":
+  "atom-beautify":
+    json:
+      brace_style: "none"
+      end_of_line: "LF"
+      end_with_newline: true
+      keep_array_indentation: true
+    python: {}
+  "atom-ide-ui":
+    use:
+      "atom-ide-diagnostics-ui": false
+  core:
+    telemetryConsent: "no"
+  editor:
+    tabType: "soft"
+  "exception-reporting":
+    userId: "e5218e16-e223-4169-8cfd-430eb3dc36c1"
+  "linter-ansible-linting":
+    blacklist: "travis"
+  "linter-terraform-syntax":
+    useTerraformPlan: true
+  "linter-ui-default":
+    showPanel: true
+  "pretty-json": {}
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+".hashicorp.interpolation.text":
+  editor:
+    autoIndentOnPaste: true
+    showIndentGuide: false
+    showInvisibles: true
+    tabLength: 2
+".makefile.source":
+  editor:
+    tabLength: 8
+".source.terraform":
+  editor:
+    tabLength: 2
+"file-types":
+  ".*.yml$": "source.ansible"
+  ".*/group_vars/.*": "source.ansible"
+  ".*/host_vars/.*": "source.ansible"
